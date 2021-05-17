@@ -3,7 +3,7 @@ import json
 from dotenv import load_dotenv
 from sql_adapters import PostgresAdapter
 from vk_bots import VkBot
-import fsm_funcs
+import main
 
 
 load_dotenv()
