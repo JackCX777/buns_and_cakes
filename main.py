@@ -1,5 +1,5 @@
-import fsm_funcs
+from fsm_funcs import run_vk_bot_machine
 
 
 if __name__ != '__main__':
-    pass
+    run_vk_bot_machine()
