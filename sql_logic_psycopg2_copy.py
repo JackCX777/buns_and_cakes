@@ -18,7 +18,7 @@ DB_NAME = os.getenv('DB_NAME')
 CATEGORIES_COLUMNS = [{'column_name': 'Category_Id', 'column_data_type': 'INT PRIMARY KEY'},
                       {'column_name': 'Category_name', 'column_data_type': 'TEXT'}]
 categories_columns = ('Category_name')
-categories_values = [('Buns'), ('Bread'), ('Pasty'), ('Cakes')]
+categories_values = [('Buns'), ('Bread'), ('Patties'), ('Cakes')]
 
 # CATEGORY_PRODUCTS_COLUMNS = [{'column_name': 'Product_Id', 'column_data_type': 'INT PRIMARY KEY'},
 #                              {'column_name': 'Category_Id', 'column_data_type': 'INT REFERENCES Categories (Category_Id)'},
@@ -31,7 +31,7 @@ PRODUCTS_COLUMNS = [{'column_name': 'Product_Id', 'column_data_type': 'INT PRIMA
                     {'column_name': 'Product_owner_id', 'column_data_type': 'INT'},
                     {'column_name': 'Product_media_id', 'column_data_type': 'INT'},
                     {'column_name': 'Product_img_path', 'column_data_type': 'TEXT'},
-                    {'column_name': 'Product_description', 'column_data_type': 'TEXT'}
+                    {'column_name': 'Product_description', 'column_data_type': 'TEXT'},
                     {'column_name': 'Category_Id', 'column_data_type': 'INT REFERENCES Categories(Category_Id)'}]
 
 products_columns = ('Product_name', 'Булочка с кремом', 'Product_owner_id',

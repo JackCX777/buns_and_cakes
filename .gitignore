@@ -131,3 +131,17 @@ dmypy.json
 # Custom
 # PyCharm
 .idea/
+
+# Drafts:
+Vk_API_examples.py
+vk_api_keyboard_example.py
+FSM_pytransitions_examples.py
+postgreSQL_psycopg2_example.py
+peewee_example.py
+
+requirements_no_FSM.txt
+reqirements_no_psycopg2.txt
+reqirements_no_peewee.txt
+main_copy.py
+sql_logic_psycopg2_copy.py
+vk_bots_copy.py
