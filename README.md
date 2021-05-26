@@ -13,3 +13,4 @@ The following technologies are used to implement the bot:
 - peewee 3.14.4
 - vk-api 11.9.3
 - pytransitions/transitions 0.8.8
+- Docker 20.10.6

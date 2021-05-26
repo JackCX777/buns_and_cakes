@@ -3,6 +3,10 @@ from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
 
 class PostgresAdapter():
+    """
+            The PostgresAdapter class provides connection to the PostgreSQL database and database ond data manipulation,
+            e.g. database creation, SELECT FROM TABLE, etc.
+    """
     def __init__(self, db_user, db_password, db_host, db_port, db_name):
         self.db_user = db_user
         self.db_password = db_password
