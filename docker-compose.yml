@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  app :
+    build: ./buns_and_cakes/
+    env_file:
+      - .env
+    depends_on:
+      - db
+  db:
+    build: ./database/
+    ports:
+      - "5432:5432"
