@@ -23,7 +23,7 @@ def run_vk_bot_machine():
             Returns:
                 None
     """
-    vk_session = vk_api.VkApi(token=ACCESS_TOKEN, v=API_VERSION)
+    vk_session = vk_api.VkApi(token=ACCESS_TOKEN)
     vk_bot = bot_init(session=vk_session, categories=Categories)
     longpoll = VkBotLongPoll(vk_session, GROUP_ID)
     vk_bot.owner_id = OWNER_ID
